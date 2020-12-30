@@ -40,4 +40,4 @@ jobs:
               run: npm install -g surge
             - name: deploying on surge
               run: surge ./build http://glistening-mass.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
-© 2020 GitHub, Inc.
+
